@@ -1,0 +1,13 @@
+Source: ros-kilted-mola-input-ouster
+Section: misc
+Priority: optional
+Maintainer: "Jose-Luis Blanco-Claraco" <jlblanco@ual.es>
+Build-Depends: debhelper (>= 9.0.0), cmake, curl, libcurl4-openssl-dev, libeigen3-dev, libflatbuffers-dev, libpng-dev, libssl-dev, libtins-dev, libzip-dev, libzstd-dev, ros-kilted-mola-kernel, ros-kilted-mola-yaml, ros-kilted-mrpt-libmaps, ros-kilted-mrpt-libobs, ros-kilted-ros-workspace
+Homepage: https://github.com/MOLAorg/mola
+Standards-Version: 3.9.2
+
+Package: ros-kilted-mola-input-ouster
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, curl, libcurl4-openssl-dev, ros-kilted-mola-kernel, ros-kilted-mola-yaml, ros-kilted-mrpt-libmaps, ros-kilted-mrpt-libobs, ros-kilted-ros-workspace
+Description: MOLA input module for Ouster LiDAR sensors using the native Ouster C++ SDK.
+ Provides direct sensor connection and PCAP replay without ROS middleware.
