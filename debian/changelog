@@ -1,0 +1,8 @@
+ros-kilted-mola-input-ouster (0.1.0-1bookworm) bookworm; urgency=high
+
+  * Initial release: live Ouster sensor and PCAP replay support.
+  * Contributors: Jose Luis Blanco-Claraco
+
+ -- "Jose-Luis Blanco-Claraco" <jlblanco@ual.es>  Tue, 19 May 2026 22:00:00 -0000
+
+
